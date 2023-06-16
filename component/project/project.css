@@ -4,6 +4,16 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
   }
+body{
+  background-image: url('SL_043021_42650_02.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  
+}
+h2{
+  color: white;
+}
   section {
     height: 100vh;
     width: 100%;
@@ -72,7 +82,23 @@
   a{
     text-decoration: none;
   }
+  .button {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: pink;
+}
   @media screen and (min-width: 768px) {
+
     section {
       padding: 0 2em;
     }
@@ -82,6 +108,7 @@
     }
   }
   @media screen and (min-width: 992px) {
+
     section {
       padding: 1em 3em;
     }

@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+
 }
+
 
 .hero{
     position: relative;
@@ -10,6 +12,12 @@
     height: 100vh;
     background: #eff4fd;
     position: relative;
+    background-image: url('flat-lay-desktop-with-agenda-magnifying-glass.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero a{
+  color: white;
 }
 
 nav{
@@ -155,6 +163,30 @@ span{
     display: none;  
   } 
 }
+    /* Responsive styles */
+    @media (max-width: 768px) {
+      .hero h1 {
+        font-size: 24px;
+      }
+
+      .hero p {
+        font-size: 16px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .hero {
+        padding: 30px;
+      }
+
+      .hero h1 {
+        font-size: 20px;
+      }
+
+      .hero p {
+        font-size: 14px;
+      }
+    }
 
 /*footer*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
